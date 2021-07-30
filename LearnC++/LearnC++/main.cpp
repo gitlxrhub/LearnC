@@ -47,13 +47,7 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-//    baseClassCtor();
-//    B b;
-////    B* pb = &b;
-//    D d;
-//    D* pd = &d;
-//    b.f();
-//    pd->f();
+
     
     HailStone();
     
