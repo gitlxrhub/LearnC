@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B813B0526B78F3900ED57F1 /* testInherit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B813B0426B78F3900ED57F1 /* testInherit.cpp */; };
 		963F420326904A9E00B81515 /* gnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 963F420026904A9E00B81515 /* gnode.cpp */; };
 		963F420426904A9E00B81515 /* ref_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 963F420226904A9E00B81515 /* ref_object.cpp */; };
 		AA6F24F1267C828C0000F121 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F24F0267C828C0000F121 /* main.cpp */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B813B0426B78F3900ED57F1 /* testInherit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testInherit.cpp; sourceTree = "<group>"; };
 		963F41FF26904A9E00B81515 /* ref_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref_object.h; sourceTree = "<group>"; };
 		963F420026904A9E00B81515 /* gnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gnode.cpp; sourceTree = "<group>"; };
 		963F420126904A9E00B81515 /* gnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gnode.h; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B813B0326B78F2800ED57F1 /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				7B813B0426B78F3900ED57F1 /* testInherit.cpp */,
+			);
+			path = OOP;
+			sourceTree = "<group>";
+		};
 		963F41F6269049A500B81515 /* CocosRef */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		AA6F24EF267C828C0000F121 /* LearnC++ */ = {
 			isa = PBXGroup;
 			children = (
+				7B813B0326B78F2800ED57F1 /* OOP */,
 				963F41F6269049A500B81515 /* CocosRef */,
 				AA6F2570267CA3FD0000F121 /* Grammar */,
 				AA6F2525267C84000000F121 /* AlgorithmsAndDataStructures */,
@@ -224,6 +235,7 @@
 				963F420426904A9E00B81515 /* ref_object.cpp in Sources */,
 				AA6F2589267CA3FD0000F121 /* testPointer.cpp in Sources */,
 				AA6F2590267CA3FD0000F121 /* defaultConstructors.cpp in Sources */,
+				7B813B0526B78F3900ED57F1 /* testInherit.cpp in Sources */,
 				AA6F2583267CA3FD0000F121 /* testConstructors.cpp in Sources */,
 				AA6F258F267CA3FD0000F121 /* testFriend.cpp in Sources */,
 				AA6F2588267CA3FD0000F121 /* testTemplate.cpp in Sources */,
@@ -353,7 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H5W4843UN7;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,7 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H5W4843UN7;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

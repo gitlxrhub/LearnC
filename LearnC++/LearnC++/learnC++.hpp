@@ -12,4 +12,5 @@ void testExplicit();
 void HailStone();
 void testLambda();
 void testOperator();
+void testInherit();
 #endif /* learnC___h */

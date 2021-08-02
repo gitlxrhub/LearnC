@@ -1,4 +1,6 @@
 #include<iostream>
+#include "learnC++.hpp"
+
 using namespace std;
 class Father{
 public:
@@ -198,7 +200,7 @@ public:
     }
 };
 
-int main(){
+void testInherit(){
     Son s;
     s.Son_fun1(); //正确，只能调用对象的public方法
 //    s.Son_fun2(); 错误
@@ -229,5 +231,5 @@ int main(){
     _Son1 _s1;
     _s1._Son1_show();
 
-    return 0;
+//    return 0;
 }

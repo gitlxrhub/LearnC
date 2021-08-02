@@ -55,7 +55,7 @@ int main(int argc, const char * argv[]) {
 //    b.f();
 //    pd->f();
 
-    testOperator();
+    testInherit();
 
     return 0;
 }
