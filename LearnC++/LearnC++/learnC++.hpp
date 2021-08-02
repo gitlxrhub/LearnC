@@ -10,4 +10,6 @@
 #include <stdio.h>
 void testExplicit();
 void HailStone();
+void testLambda();
+void testOperator();
 #endif /* learnC___h */

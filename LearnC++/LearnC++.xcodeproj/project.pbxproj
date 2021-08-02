@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963F420326904A9E00B81515 /* gnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 963F420026904A9E00B81515 /* gnode.cpp */; };
+		963F420426904A9E00B81515 /* ref_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 963F420226904A9E00B81515 /* ref_object.cpp */; };
 		AA6F24F1267C828C0000F121 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F24F0267C828C0000F121 /* main.cpp */; };
-		AA6F253C267C846F0000F121 /* baseClassCtor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F252B267C846E0000F121 /* baseClassCtor.cpp */; };
-		AA6F253D267C846F0000F121 /* declType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F252C267C846E0000F121 /* declType.cpp */; };
-		AA6F253E267C846F0000F121 /* HailStone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F252D267C846E0000F121 /* HailStone.cpp */; };
-		AA6F253F267C846F0000F121 /* selectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F252E267C846E0000F121 /* selectionSort.cpp */; };
-		AA6F2540267C846F0000F121 /* testOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F252F267C846E0000F121 /* testOperator.cpp */; };
-		AA6F2541267C846F0000F121 /* reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2530267C846E0000F121 /* reference.cpp */; };
-		AA6F2542267C846F0000F121 /* testPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2531267C846E0000F121 /* testPointer.cpp */; };
-		AA6F2543267C846F0000F121 /* testConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2532267C846E0000F121 /* testConstructors.cpp */; };
-		AA6F2544267C846F0000F121 /* testFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2533267C846E0000F121 /* testFriend.cpp */; };
-		AA6F2545267C846F0000F121 /* testTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2534267C846E0000F121 /* testTemplate.cpp */; };
-		AA6F2546267C846F0000F121 /* staticMembers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2535267C846E0000F121 /* staticMembers.cpp */; };
-		AA6F2547267C846F0000F121 /* testExplicit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2536267C846E0000F121 /* testExplicit.cpp */; };
-		AA6F2548267C846F0000F121 /* copyCtor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2537267C846E0000F121 /* copyCtor.cpp */; };
-		AA6F2549267C846F0000F121 /* defaultConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2538267C846E0000F121 /* defaultConstructors.cpp */; };
-		AA6F254A267C846F0000F121 /* testPolymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2539267C846E0000F121 /* testPolymorphism.cpp */; };
-		AA6F254B267C846F0000F121 /* auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F253A267C846E0000F121 /* auto.cpp */; };
-		AA6F254C267C846F0000F121 /* dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F253B267C846E0000F121 /* dataType.cpp */; };
+		AA6F2582267CA3FD0000F121 /* testExplicit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2571267CA3FD0000F121 /* testExplicit.cpp */; };
+		AA6F2583267CA3FD0000F121 /* testConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2572267CA3FD0000F121 /* testConstructors.cpp */; };
+		AA6F2584267CA3FD0000F121 /* dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2573267CA3FD0000F121 /* dataType.cpp */; };
+		AA6F2585267CA3FD0000F121 /* testOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2574267CA3FD0000F121 /* testOperator.cpp */; };
+		AA6F2586267CA3FD0000F121 /* staticMembers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2575267CA3FD0000F121 /* staticMembers.cpp */; };
+		AA6F2587267CA3FD0000F121 /* selectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2576267CA3FD0000F121 /* selectionSort.cpp */; };
+		AA6F2588267CA3FD0000F121 /* testTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2577267CA3FD0000F121 /* testTemplate.cpp */; };
+		AA6F2589267CA3FD0000F121 /* testPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2578267CA3FD0000F121 /* testPointer.cpp */; };
+		AA6F258A267CA3FD0000F121 /* testPolymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2579267CA3FD0000F121 /* testPolymorphism.cpp */; };
+		AA6F258B267CA3FD0000F121 /* HailStone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F257A267CA3FD0000F121 /* HailStone.cpp */; };
+		AA6F258C267CA3FD0000F121 /* baseClassCtor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F257B267CA3FD0000F121 /* baseClassCtor.cpp */; };
+		AA6F258D267CA3FD0000F121 /* reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F257C267CA3FD0000F121 /* reference.cpp */; };
+		AA6F258E267CA3FD0000F121 /* auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F257D267CA3FD0000F121 /* auto.cpp */; };
+		AA6F258F267CA3FD0000F121 /* testFriend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F257E267CA3FD0000F121 /* testFriend.cpp */; };
+		AA6F2590267CA3FD0000F121 /* defaultConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F257F267CA3FD0000F121 /* defaultConstructors.cpp */; };
+		AA6F2591267CA3FD0000F121 /* declType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2580267CA3FD0000F121 /* declType.cpp */; };
+		AA6F2592267CA3FD0000F121 /* copyCtor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2581267CA3FD0000F121 /* copyCtor.cpp */; };
+		AA6F2596267DDCE30000F121 /* testLambda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2595267DDCE30000F121 /* testLambda.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,27 +43,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		963F41FF26904A9E00B81515 /* ref_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref_object.h; sourceTree = "<group>"; };
+		963F420026904A9E00B81515 /* gnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gnode.cpp; sourceTree = "<group>"; };
+		963F420126904A9E00B81515 /* gnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gnode.h; sourceTree = "<group>"; };
+		963F420226904A9E00B81515 /* ref_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ref_object.cpp; sourceTree = "<group>"; };
 		AA6F24ED267C828C0000F121 /* LearnC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LearnC++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6F24F0267C828C0000F121 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AA6F2528267C840D0000F121 /* HailStone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HailStone.cpp; sourceTree = "<group>"; };
 		AA6F252A267C843D0000F121 /* learnC++.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "learnC++.hpp"; sourceTree = "<group>"; };
-		AA6F252B267C846E0000F121 /* baseClassCtor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = baseClassCtor.cpp; path = ../../../../../../test/Grammar/baseClassCtor.cpp; sourceTree = "<group>"; };
-		AA6F252C267C846E0000F121 /* declType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = declType.cpp; path = ../../../../../../test/Grammar/declType.cpp; sourceTree = "<group>"; };
-		AA6F252D267C846E0000F121 /* HailStone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HailStone.cpp; path = ../../../../../../test/Grammar/HailStone.cpp; sourceTree = "<group>"; };
-		AA6F252E267C846E0000F121 /* selectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = selectionSort.cpp; path = ../../../../../../test/Grammar/selectionSort.cpp; sourceTree = "<group>"; };
-		AA6F252F267C846E0000F121 /* testOperator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testOperator.cpp; path = ../../../../../../test/Grammar/testOperator.cpp; sourceTree = "<group>"; };
-		AA6F2530267C846E0000F121 /* reference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reference.cpp; path = ../../../../../../test/Grammar/reference.cpp; sourceTree = "<group>"; };
-		AA6F2531267C846E0000F121 /* testPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testPointer.cpp; path = ../../../../../../test/Grammar/testPointer.cpp; sourceTree = "<group>"; };
-		AA6F2532267C846E0000F121 /* testConstructors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testConstructors.cpp; path = ../../../../../../test/Grammar/testConstructors.cpp; sourceTree = "<group>"; };
-		AA6F2533267C846E0000F121 /* testFriend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testFriend.cpp; path = ../../../../../../test/Grammar/testFriend.cpp; sourceTree = "<group>"; };
-		AA6F2534267C846E0000F121 /* testTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testTemplate.cpp; path = ../../../../../../test/Grammar/testTemplate.cpp; sourceTree = "<group>"; };
-		AA6F2535267C846E0000F121 /* staticMembers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = staticMembers.cpp; path = ../../../../../../test/Grammar/staticMembers.cpp; sourceTree = "<group>"; };
-		AA6F2536267C846E0000F121 /* testExplicit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testExplicit.cpp; path = ../../../../../../test/Grammar/testExplicit.cpp; sourceTree = "<group>"; };
-		AA6F2537267C846E0000F121 /* copyCtor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = copyCtor.cpp; path = ../../../../../../test/Grammar/copyCtor.cpp; sourceTree = "<group>"; };
-		AA6F2538267C846E0000F121 /* defaultConstructors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = defaultConstructors.cpp; path = ../../../../../../test/Grammar/defaultConstructors.cpp; sourceTree = "<group>"; };
-		AA6F2539267C846E0000F121 /* testPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = testPolymorphism.cpp; path = ../../../../../../test/Grammar/testPolymorphism.cpp; sourceTree = "<group>"; };
-		AA6F253A267C846E0000F121 /* auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = auto.cpp; path = ../../../../../../test/Grammar/auto.cpp; sourceTree = "<group>"; };
-		AA6F253B267C846E0000F121 /* dataType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataType.cpp; path = ../../../../../../test/Grammar/dataType.cpp; sourceTree = "<group>"; };
+		AA6F2571267CA3FD0000F121 /* testExplicit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testExplicit.cpp; sourceTree = "<group>"; };
+		AA6F2572267CA3FD0000F121 /* testConstructors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testConstructors.cpp; sourceTree = "<group>"; };
+		AA6F2573267CA3FD0000F121 /* dataType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dataType.cpp; sourceTree = "<group>"; };
+		AA6F2574267CA3FD0000F121 /* testOperator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testOperator.cpp; sourceTree = "<group>"; };
+		AA6F2575267CA3FD0000F121 /* staticMembers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = staticMembers.cpp; sourceTree = "<group>"; };
+		AA6F2576267CA3FD0000F121 /* selectionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = selectionSort.cpp; sourceTree = "<group>"; };
+		AA6F2577267CA3FD0000F121 /* testTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testTemplate.cpp; sourceTree = "<group>"; };
+		AA6F2578267CA3FD0000F121 /* testPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testPointer.cpp; sourceTree = "<group>"; };
+		AA6F2579267CA3FD0000F121 /* testPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testPolymorphism.cpp; sourceTree = "<group>"; };
+		AA6F257A267CA3FD0000F121 /* HailStone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HailStone.cpp; sourceTree = "<group>"; };
+		AA6F257B267CA3FD0000F121 /* baseClassCtor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseClassCtor.cpp; sourceTree = "<group>"; };
+		AA6F257C267CA3FD0000F121 /* reference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reference.cpp; sourceTree = "<group>"; };
+		AA6F257D267CA3FD0000F121 /* auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auto.cpp; sourceTree = "<group>"; };
+		AA6F257E267CA3FD0000F121 /* testFriend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testFriend.cpp; sourceTree = "<group>"; };
+		AA6F257F267CA3FD0000F121 /* defaultConstructors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = defaultConstructors.cpp; sourceTree = "<group>"; };
+		AA6F2580267CA3FD0000F121 /* declType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = declType.cpp; sourceTree = "<group>"; };
+		AA6F2581267CA3FD0000F121 /* copyCtor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = copyCtor.cpp; sourceTree = "<group>"; };
+		AA6F2595267DDCE30000F121 /* testLambda.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testLambda.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963F41F6269049A500B81515 /* CocosRef */ = {
+			isa = PBXGroup;
+			children = (
+				963F420026904A9E00B81515 /* gnode.cpp */,
+				963F420126904A9E00B81515 /* gnode.h */,
+				963F420226904A9E00B81515 /* ref_object.cpp */,
+				963F41FF26904A9E00B81515 /* ref_object.h */,
+			);
+			path = CocosRef;
+			sourceTree = "<group>";
+		};
 		AA6F24E4267C828C0000F121 = {
 			isa = PBXGroup;
 			children = (
@@ -93,36 +112,13 @@
 		AA6F24EF267C828C0000F121 /* LearnC++ */ = {
 			isa = PBXGroup;
 			children = (
+				963F41F6269049A500B81515 /* CocosRef */,
+				AA6F2570267CA3FD0000F121 /* Grammar */,
 				AA6F2525267C84000000F121 /* AlgorithmsAndDataStructures */,
-				AA6F24FF267C83B10000F121 /* Grammar */,
 				AA6F24F0267C828C0000F121 /* main.cpp */,
 				AA6F252A267C843D0000F121 /* learnC++.hpp */,
 			);
 			path = "LearnC++";
-			sourceTree = "<group>";
-		};
-		AA6F24FF267C83B10000F121 /* Grammar */ = {
-			isa = PBXGroup;
-			children = (
-				AA6F253A267C846E0000F121 /* auto.cpp */,
-				AA6F252B267C846E0000F121 /* baseClassCtor.cpp */,
-				AA6F2537267C846E0000F121 /* copyCtor.cpp */,
-				AA6F253B267C846E0000F121 /* dataType.cpp */,
-				AA6F252C267C846E0000F121 /* declType.cpp */,
-				AA6F2538267C846E0000F121 /* defaultConstructors.cpp */,
-				AA6F252D267C846E0000F121 /* HailStone.cpp */,
-				AA6F2530267C846E0000F121 /* reference.cpp */,
-				AA6F252E267C846E0000F121 /* selectionSort.cpp */,
-				AA6F2535267C846E0000F121 /* staticMembers.cpp */,
-				AA6F2532267C846E0000F121 /* testConstructors.cpp */,
-				AA6F2536267C846E0000F121 /* testExplicit.cpp */,
-				AA6F2533267C846E0000F121 /* testFriend.cpp */,
-				AA6F252F267C846E0000F121 /* testOperator.cpp */,
-				AA6F2531267C846E0000F121 /* testPointer.cpp */,
-				AA6F2539267C846E0000F121 /* testPolymorphism.cpp */,
-				AA6F2534267C846E0000F121 /* testTemplate.cpp */,
-			);
-			path = Grammar;
 			sourceTree = "<group>";
 		};
 		AA6F2525267C84000000F121 /* AlgorithmsAndDataStructures */ = {
@@ -132,6 +128,32 @@
 			);
 			path = AlgorithmsAndDataStructures;
 			sourceTree = "<group>";
+		};
+		AA6F2570267CA3FD0000F121 /* Grammar */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F2571267CA3FD0000F121 /* testExplicit.cpp */,
+				AA6F2572267CA3FD0000F121 /* testConstructors.cpp */,
+				AA6F2573267CA3FD0000F121 /* dataType.cpp */,
+				AA6F2574267CA3FD0000F121 /* testOperator.cpp */,
+				AA6F2575267CA3FD0000F121 /* staticMembers.cpp */,
+				AA6F2576267CA3FD0000F121 /* selectionSort.cpp */,
+				AA6F2577267CA3FD0000F121 /* testTemplate.cpp */,
+				AA6F2578267CA3FD0000F121 /* testPointer.cpp */,
+				AA6F2579267CA3FD0000F121 /* testPolymorphism.cpp */,
+				AA6F257A267CA3FD0000F121 /* HailStone.cpp */,
+				AA6F257B267CA3FD0000F121 /* baseClassCtor.cpp */,
+				AA6F257C267CA3FD0000F121 /* reference.cpp */,
+				AA6F257D267CA3FD0000F121 /* auto.cpp */,
+				AA6F257E267CA3FD0000F121 /* testFriend.cpp */,
+				AA6F257F267CA3FD0000F121 /* defaultConstructors.cpp */,
+				AA6F2580267CA3FD0000F121 /* declType.cpp */,
+				AA6F2581267CA3FD0000F121 /* copyCtor.cpp */,
+				AA6F2595267DDCE30000F121 /* testLambda.cpp */,
+			);
+			name = Grammar;
+			path = "LearnC++/Grammar";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -189,24 +211,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6F2596267DDCE30000F121 /* testLambda.cpp in Sources */,
+				AA6F2587267CA3FD0000F121 /* selectionSort.cpp in Sources */,
+				AA6F258B267CA3FD0000F121 /* HailStone.cpp in Sources */,
+				963F420326904A9E00B81515 /* gnode.cpp in Sources */,
 				AA6F24F1267C828C0000F121 /* main.cpp in Sources */,
-				AA6F2546267C846F0000F121 /* staticMembers.cpp in Sources */,
-				AA6F2542267C846F0000F121 /* testPointer.cpp in Sources */,
-				AA6F253E267C846F0000F121 /* HailStone.cpp in Sources */,
-				AA6F2541267C846F0000F121 /* reference.cpp in Sources */,
-				AA6F253D267C846F0000F121 /* declType.cpp in Sources */,
-				AA6F2549267C846F0000F121 /* defaultConstructors.cpp in Sources */,
-				AA6F2548267C846F0000F121 /* copyCtor.cpp in Sources */,
-				AA6F254A267C846F0000F121 /* testPolymorphism.cpp in Sources */,
-				AA6F254C267C846F0000F121 /* dataType.cpp in Sources */,
-				AA6F2540267C846F0000F121 /* testOperator.cpp in Sources */,
-				AA6F2543267C846F0000F121 /* testConstructors.cpp in Sources */,
-				AA6F254B267C846F0000F121 /* auto.cpp in Sources */,
-				AA6F2544267C846F0000F121 /* testFriend.cpp in Sources */,
-				AA6F2547267C846F0000F121 /* testExplicit.cpp in Sources */,
-				AA6F253C267C846F0000F121 /* baseClassCtor.cpp in Sources */,
-				AA6F253F267C846F0000F121 /* selectionSort.cpp in Sources */,
-				AA6F2545267C846F0000F121 /* testTemplate.cpp in Sources */,
+				AA6F258E267CA3FD0000F121 /* auto.cpp in Sources */,
+				AA6F258C267CA3FD0000F121 /* baseClassCtor.cpp in Sources */,
+				AA6F2585267CA3FD0000F121 /* testOperator.cpp in Sources */,
+				AA6F258A267CA3FD0000F121 /* testPolymorphism.cpp in Sources */,
+				AA6F258D267CA3FD0000F121 /* reference.cpp in Sources */,
+				963F420426904A9E00B81515 /* ref_object.cpp in Sources */,
+				AA6F2589267CA3FD0000F121 /* testPointer.cpp in Sources */,
+				AA6F2590267CA3FD0000F121 /* defaultConstructors.cpp in Sources */,
+				AA6F2583267CA3FD0000F121 /* testConstructors.cpp in Sources */,
+				AA6F258F267CA3FD0000F121 /* testFriend.cpp in Sources */,
+				AA6F2588267CA3FD0000F121 /* testTemplate.cpp in Sources */,
+				AA6F2584267CA3FD0000F121 /* dataType.cpp in Sources */,
+				AA6F2586267CA3FD0000F121 /* staticMembers.cpp in Sources */,
+				AA6F2591267CA3FD0000F121 /* declType.cpp in Sources */,
+				AA6F2582267CA3FD0000F121 /* testExplicit.cpp in Sources */,
+				AA6F2592267CA3FD0000F121 /* copyCtor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
